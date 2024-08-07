@@ -16,8 +16,9 @@ function RootLayout() {
           </span>
         </Link>
       </nav>
-
-      <Outlet />
+      <div className="py-4">
+        <Outlet />
+      </div>
     </div>
   );
 }
